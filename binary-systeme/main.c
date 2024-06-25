@@ -11,25 +11,23 @@ void init_state()
 }
 
 // let take   the choise from the user
-
 int choise()
 {
     int type;
     printf("Enter the number of your choise: ");
-    scanf("%d",&type);
-    
+    scanf("%d", &type);
+
     // set the condition if the user enter an invalide choise
-    while (type != 1 && type != 2 && type != 3){
-       puts("Warning!! please enter a valide number") ;
-       printf("Enter the number of your choise: ");
-        scanf("%d",&type);
+    while (type != 1 && type != 2 && type != 3)
+    {
+        puts("Warning!! please enter a valide number");
+        printf("Enter the number of your choise: ");
+        scanf("%d", &type);
     }
     printf("your choise is :%d\n", type);
 
     return type; // return this to use it in the main function in conditions statement
 }
-
-
 
 // lets take the input from user and convert it
 
@@ -57,25 +55,6 @@ int convertNum()
     puts("converted succecfully");
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 int main()
 {
 
@@ -88,7 +67,6 @@ int main()
     if (type == 1)
     {
         convertNum();
-        
     }
     else if (type == 2)
     {
@@ -100,7 +78,6 @@ int main()
         // c ode for the both
         puts("enter the mixt number:");
     }
-    
 
     // convert into binary
 }
