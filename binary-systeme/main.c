@@ -80,4 +80,5 @@ int main()
     }
 
     // convert into binary
+    // good
 }

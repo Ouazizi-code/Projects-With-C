@@ -44,5 +44,5 @@ int main(){
 
     puts("#===Hello average===#");
     average();
-    puts("thanks ~~~..~~~");
+    puts("succesfully calculated ~~~..~~~");
 }
