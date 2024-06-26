@@ -55,6 +55,18 @@ int convertNum()
     puts("converted succecfully");
 }
 
+
+
+// let convert characters int binary 
+int convertChar(){
+
+    char text[26];
+    scanf("%s",&text);
+}
+
+
+
+
 int main()
 {
 
