@@ -1,0 +1,2 @@
+undrestand the fgets() function 
+undrestand the readline function 
